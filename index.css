@@ -1,0 +1,70 @@
+
+.maincontainer{
+    background-color:  #97BC62;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.Holder{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 100px;
+    
+}
+.inputcss{
+    border-radius: 8px;
+    border-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button{
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 12px;
+    
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.forRows{
+   border: 1px solid black;
+   
+}table {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid ;
+    border-collapse: collapse; 
+    background-color: white; 
+    
+  }
+  
+  thead th, tbody td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid ; 
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f8ff; 
+  }
+  tbody tr button{
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 12px;
+    
+  }
